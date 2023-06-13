@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+	android:keepScreenOn="true"
+    >
+
+	<ImageButton
+		android:layout_width="match_parent"
+		android:layout_height="90dp"
+		android:layout_weight="1"
+		android:adjustViewBounds="true"
+		android:background="@null"
+		android:cropToPadding="false"
+		android:scaleType="fitCenter"
+		android:src="@drawable/sail" />
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="0.1"
+		android:orientation="horizontal">
+
+		<EditText
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:ellipsize="start"
+			android:gravity="center_horizontal"
+			android:hint="Name"
+			android:textColor="#000000"
+			android:inputType="text" />
+
+		<EditText
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:ellipsize="start"
+			android:gravity="center_horizontal"
+			android:hint="Name"
+			android:textColor="#000000"
+			android:inputType="text" />
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:orientation="horizontal">
+
+
+		<ImageButton
+			android:id="@+id/RecordButton"
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:background="@null"
+			android:src="@drawable/mic" />
+
+		<ImageButton
+			android:id="@+id/RecordButtonRight"
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:background="@null"
+			android:src="@drawable/mic" />
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:layout_weight="0.1"
+		/>
+
+</LinearLayout>
+
